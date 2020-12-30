@@ -8,6 +8,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <java.executable.version>/users/davidwiner/jdk-11.0.8.jdk/contents/Home/bin/java</java.executable.version>
     </properties>
     <dependencies>
         <dependency>
@@ -56,7 +57,7 @@
                 <version>0.0.1</version>
                 <configuration>
                     <mainClass>hello.world.App</mainClass>
-                    <executable>/users/davidwiner/jdk-11.0.8.jdk/contents/Home/bin/java</executable>
+                    <executable>${java.executable.version}</executable>
                 </configuration>
             </plugin>
         </plugins>
